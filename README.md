@@ -1,2 +1,15 @@
-# codefundo
-Microsoft's competition with the topic 'Disaster Prediction'
+# Earthquake Occurence Estimation using Neural Networks
+
+The prediction of occurence of a earthquake is a most sought after goals in geoscience. Succeeding in such goals will help in saving many lives but it is faced with many difficulties;not only should the proper variables that will act as precursors be recognized and measured, but more importantly,the correlations between those variables and disaster occurrence should be identified. In spite of the significant progress over the last many years, we couldnt achieve the desired result as the governing relationships as rather complex and nonlinear and the mechanisms creating the respective correlaions are only recently understood. Due to the presence of many unknown involved parameters, we have seen no large scale practical implementation.
+
+On the other hand, neural networks (NNs) are powerful mathematical tools that simulate the way that the human brain deals with information and the procedure of learning.NNs have the ability to identify and learn highly complex and nonlinear relationships from input–output data only, without the use of first principle equations describing the system. Due to these properties, NNs have been thoroughly exploited by many researchers for developing predictive models in geoscience(in predicting rainfall etc).In a similar context, NN techniques have been also used for predicting and assessing the risk of natural disaster occurrence.
+
+Earthquake prediction is a subject of primary interest for the geophysicical community.A common problem in the attempts for building NN-based earthquake predictive models involves the proper validation of the NN predictions; due to the very limited number of available training data, usually the same earthquake events that have been
+used during the training stage for calculating the NN model parameters are afterward employed for evaluating the model’s performance. In some cases, a single earthquake event may be omitted from the training data set in an attempt to validate the prediction; however, this is not enough as an indicator of the model’s success. As one of the main problems when using NN techniques on earthquake data is the small size of the training set compared with the number of
+parameters needed for determining the NN model.
+
+Here I try to present a NN-based methodology for estimating the occurrence of significant earthquake events, with the ability to cope with the small size of the available data. The method employs many architectures like RBF,RNN and LSTM , which presents several advantages, including higher estimation accuracy levels.
+Training of the networks is performed using the powerful modified fuzzy means (FM) algorithm. This modification should enable us to effectively use a small data set,
+allowing for an adequate number of data points for model training, while still evaluating the model on training-independent data. The dataset is readily available at Australian,UK and in USA based geological websites. Trying to achieve a 80%+ is the motto of this work.
+
+
